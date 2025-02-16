@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.container {
+  display: flex; 
+  width: 100vw; 
+  height: 100vh; 
+}
+
+.box {
+  flex: 1; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.left {
+  background-color: white;
+  color: #123D72;
+}
+
+.right {
+  background-color: #123D72;
+
+}
+.login{
+  margin-bottom: 90px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+input{
+  width: 459px;
+  height: 66px;
+  top: 406px;
+  left: 345px;
+  border-radius: 12px;
+  color: black;
+  background-color: white;
+  padding: 10px 10px 10px 40px; 
+}
+
+input::placeholder{
+  width: 128px;
+  height: 29px;
+  top: 425px;
+  left: 440px;
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px; 
+}
+
+.input-icon {
+  position: absolute;
+  left: 10px; 
+  color: gray;
+  font-size: 20px;
+}
+
+.input-container input:focus {
+  outline: none;
+  border-color: #0066cc;
+}
+
+.input-container input::placeholder {
+  color: gray;
+}
+
+.bnt-form{
+  width: 223px;
+  height: 66px;
+  top: 749px;
+  left: 463px;
+  border-radius: 24px;
+  background-color: #123D72;
+}
+
+.bnt-singup{
+    width: 223px;
+    height: 66px;
+    top: 555px;
+    left: 1425px;
+    border-radius: 24px;
+    border-width: 2px;
+    border-color:#FFFFFF;
+    background-color: #123D72;
+}
+
+
