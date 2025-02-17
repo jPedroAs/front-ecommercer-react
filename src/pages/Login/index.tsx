@@ -2,17 +2,17 @@ import './index.css'
 import { IoFingerPrint,IoPersonOutline } from "react-icons/io5";
 import { GiPadlock } from "react-icons/gi";
 import { MdAlternateEmail } from "react-icons/md";
-import api from "../../services/api"
+// import api from "../../services/api"
 import { useState } from "react";
 
 function Login(){
 
-  async function ReqLogin() {
-      const response = await api.post("/singin")
+  // async function ReqLogin() {
+  //     const response = await api.post("/singin")
 
-      const data = response.data.json()
-      localStorage.setItem("token", data.token);
-  }
+  //     const data = response.data.json()
+  //     localStorage.setItem("token", data.token);
+  // }
 
   const [isSignUp, setIsSignUp] = useState(false);
 
