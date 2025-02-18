@@ -112,6 +112,7 @@ function Login() {
               <GiPadlock className="input-icon" />
               <input type='Password' placeholder='Senha' ref={inputLoginSenha} />
             </div>
+            <a href="*">Esqueci minha senha</a>
             <button className='bnt-form' onClick={ReqLogin}>Sign In</button>
           </form>
         </div>
