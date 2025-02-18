@@ -48,10 +48,10 @@ function Login() {
     event.preventDefault(); 
     try {
       const body = {
-        Username: inputName.current?.value,
-        Email: inputEmail.current?.value,
-        Password: inputSenha.current?.value,
-        RA: inputRa.current?.value
+        name: inputName.current?.value,
+        email: inputEmail.current?.value,
+        senha: inputSenha.current?.value,
+        ra: inputRa.current?.value
       };
       console.log(body)
 
