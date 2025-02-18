@@ -48,14 +48,14 @@ function Login() {
     event.preventDefault(); 
     try {
       const body = {
-        name: inputName.current?.value,
-        email: inputEmail.current?.value,
-        senha: inputSenha.current?.value,
-        rA: inputRa.current?.value
+        Username: inputName.current?.value,
+        Email: inputEmail.current?.value,
+        Password: inputSenha.current?.value,
+        // rA: inputRa.current?.value
       };
       console.log(body)
 
-      const response = await api.post("/Cadastro", body);
+      const response = await api.post("api/register", body);
       console.log(response.status)
       console.log(response.data)
 
